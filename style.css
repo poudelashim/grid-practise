@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1.5rem;
+}
+main {
+  width: 90%;
+  margin: 50px auto;
+  border: 1px solid black;
+  display: grid;
+  grid-template-rows: 250px 250px;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-row-gap: 20px;
+  grid-column-gap: 20px; */
+  grid-gap: 20px;
+}
+.div1 {
+  background-color: brown;
+}
+.div2 {
+  background-color: rgb(31, 61, 149);
+}
+.div3 {
+  background-color: cyan;
+}
+.div4 {
+  background-color: orange;
+}
+.div5 {
+  background-color: orangered;
+}
+.div6 {
+  background-color: greenyellow;
+}
